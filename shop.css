@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: linear-gradient(45deg, black, gray);
+
+}
+
+.logo {
+    box-sizing: 15px;
+}
+
+.search-bar {
+    padding: 5px;
+    width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    gap:15px;
+}
+
+.cart-btn {
+    background: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;  
+    
+}
+
+.shop-now {
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.featured-products, .newsletter, {
+    padding: 20px;
+    text-align: center;
+}
+
+.products, .product-stuff {
+    display: flex;
+    gap: 15px;
+}
+
+.product-card {
+    padding: 20px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.newsletter input {
+    padding: 5px;
+    width: 200px;
+}
+
+.newsletter button {
+    padding: 5px 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #f8f8f8;
+}
+nav ul li{
+    padding:15px;
+}
+.product-card img{
+    width: 200px;
+}
+.newsletter{
+text-align: center;
+}
+ .hero img{
+position: relative;
+width:300px;
+box-sizing: border-box;
+}
+.logo img{
+    width: 100px;
+    border-radius: 5px;
+}
+.abt{
+    text-align: center;
+    border: 10px;
+}
